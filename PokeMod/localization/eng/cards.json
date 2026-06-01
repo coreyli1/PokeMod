@@ -11,6 +11,9 @@
 
   "POKEMOD-SILCOON.description": "Deal {Damage:diff()} damage.\nApply {WeakPower:diff()} [gold]Weak[/gold].",
   "POKEMOD-SILCOON.title": "Silcoon",
+
+  "POKEMOD-BEAUTIFLY.description": "Deal {Damage:diff()} damage.\nApply {WeakPower:diff()} [gold]Weak[/gold].",
+  "POKEMOD-BEAUTIFLY.title": "Beautifly",
   
   "POKEMOD-HARDEN.description": "Gain {Block:diff()} block.\nGain {PlatingPower:diff()} [gold]Plating[/gold].",
   "POKEMOD-HARDEN.title": "Harden"
