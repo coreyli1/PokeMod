@@ -1,0 +1,33 @@
+{
+  "POKEMOD-POKE_MOD.aromaPrinciple": "Lore",
+  "POKEMOD-POKE_MOD.banter.alive.endTurnPing": "Co-op hurry up end turn ping message",
+  "POKEMOD-POKE_MOD.banter.dead.endTurnPing": "...",
+  "POKEMOD-POKE_MOD.cardsModifierDescription": "__ cards will now appear in rewards and shops.",
+  "POKEMOD-POKE_MOD.cardsModifierTitle": "__ Cards",
+  "POKEMOD-POKE_MOD.description": "Character Selection\nScreen Description",
+  "POKEMOD-POKE_MOD.eventDeathPrevention": "Co-op survival line",
+  "POKEMOD-POKE_MOD.goldMonologue": "Line spoken when obtaining a large amount of gold",
+  "POKEMOD-POKE_MOD.possessiveAdjective": "his/her/its",
+  "POKEMOD-POKE_MOD.pronounObject": "him/her/it",
+  "POKEMOD-POKE_MOD.pronounPossessive": "his/hers/its",
+  "POKEMOD-POKE_MOD.pronounSubject": "he/she/it",
+  "POKEMOD-POKE_MOD.title": "The PokeMod",
+  "POKEMOD-POKE_MOD.titleObject": "The PokeMod",
+
+
+
+  "POKEMOD-BUG_CATCHER.aromaPrinciple": "Lore",
+  "POKEMOD-BUG_CATCHER.banter.alive.endTurnPing": "Co-op hurry up end turn ping message",
+  "POKEMOD-BUG_CATCHER.banter.dead.endTurnPing": "...",
+  "POKEMOD-BUG_CATCHER.cardsModifierDescription": "__ cards will now appear in rewards and shops.",
+  "POKEMOD-BUG_CATCHER.cardsModifierTitle": "__ Cards",
+  "POKEMOD-BUG_CATCHER.description": "Character Selection\nScreen Description",
+  "POKEMOD-BUG_CATCHER.eventDeathPrevention": "Co-op survival line",
+  "POKEMOD-BUG_CATCHER.goldMonologue": "Line spoken when obtaining a large amount of gold",
+  "POKEMOD-BUG_CATCHER.possessiveAdjective": "his/her/its",
+  "POKEMOD-BUG_CATCHER.pronounObject": "him/her/it",
+  "POKEMOD-BUG_CATCHER.pronounPossessive": "his/hers/its",
+  "POKEMOD-BUG_CATCHER.pronounSubject": "he/she/it",
+  "POKEMOD-BUG_CATCHER.title": "The BugCatcher",
+  "POKEMOD-BUG_CATCHER.titleObject": "The BugCatcher"
+}

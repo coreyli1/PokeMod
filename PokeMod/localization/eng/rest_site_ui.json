@@ -1,0 +1,6 @@
+{
+  "OPTION_EVOLVE.description": "[gold]Evolve[/gold] {Count:plural:a card|{} cards} in your [gold]Deck[/gold].",
+  "OPTION_EVOLVE.descriptionDisabled": "[red]You have no available cards to Evolve.[/red]",
+  "OPTION_EVOLVE.name": "Evolve",
+  "PROMPT": "What shall I do?"
+}

@@ -1,0 +1,21 @@
+{
+  "POKEMOD-DEFEND_BUG_CATCHER.description": "Gain {Block:diff()} [gold]Block[/gold].",
+  "POKEMOD-DEFEND_BUG_CATCHER.title": "Defend",
+
+  "POKEMOD-STRIKE_BUG_CATCHER.description": "Deal {Damage:diff()} damage.",
+  "POKEMOD-STRIKE_BUG_CATCHER.title": "Strike", 
+  
+  
+  "POKEMOD-WURMPLE.description": "Deal {Damage:diff()} damage.\nApply {WeakPower:diff()} [gold]Weak[/gold].",
+  "POKEMOD-WURMPLE.title": "Wurmple",
+
+  "POKEMOD-SILCOON.description": "Deal {Damage:diff()} damage.\nApply {WeakPower:diff()} [gold]Weak[/gold].",
+  "POKEMOD-SILCOON.title": "Silcoon",
+  
+  "POKEMOD-HARDEN.description": "Gain {Block:diff()} block.\nGain {PlatingPower:diff()} [gold]Plating[/gold].",
+  "POKEMOD-HARDEN.title": "Harden"
+  
+
+
+}
+
