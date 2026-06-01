@@ -25,10 +25,18 @@ using PokeMod.PokeModCode.Cards;
 
 
 
+
 namespace PokeMod.PokeModCode.RestSite;
+
 
 public class EvolveRestSiteOption : RestSiteOption
 {
+    private static readonly Dictionary<string, Func<CardModel>> EvolutionMap = new()
+    {
+        { "Wurmple", () => ModelDb.Card<Silcoon>() },
+        { "Silcoon", () => ModelDb.Card<Beautifly>() },
+    };
+    
     private IEnumerable<CardModel>? _selection;
 
 	public override string OptionId => "EVOLVE";
@@ -59,80 +67,66 @@ public class EvolveRestSiteOption : RestSiteOption
     		}
     	}
 
-	public override async Task<bool> OnSelect()
-	{
-		CardSelectorPrefs prefs = new CardSelectorPrefs(CardSelectorPrefs.TransformSelectionPrompt, EvolveCount)
-		{
-			Cancelable = true,
-			RequireManualConfirmation = true
-		};
-		_selection = await CardSelectCmd.FromDeckGeneric(base.Owner, prefs, c => c.Keywords.Contains(Keywords.Evolve));
+public override async Task<bool> OnSelect()
+{
+    CardSelectorPrefs prefs = new CardSelectorPrefs(CardSelectorPrefs.TransformSelectionPrompt, EvolveCount)
+    {
+        Cancelable = true,
+        RequireManualConfirmation = true
+    };
+    _selection = await CardSelectCmd.FromDeckGeneric(base.Owner, prefs, c => c.Keywords.Contains(Keywords.Evolve));
 
-		if (!_selection.Any())
-		{
-			return false;
-		}
+    if (!_selection.Any())
+    {
+        return false;
+    }
 
-        
-        
-		foreach (CardModel item in _selection)
-		{
+    foreach (CardModel item in _selection)
+    {
+        if (EvolutionMap.TryGetValue(item.Title, out Func<CardModel>? getEvolution))
+        {
+            MainFile.Logger.Info(item.Title);
+            CardModel evolved = (CardModel)base.Owner.RunState.CreateCard(getEvolution(), base.Owner);
+            await CardCmd.Transform(item, evolved, CardPreviewStyle.HorizontalLayout);
+        }
+    }
 
-            
-            //add a dictionary key thingy where item is the key to the 
-            //transform card into another card	        		    
-            if (item.Title == "Wurmple")
+    return true;
+}
+
+private CardModel Evolve(CardModel prevo, Func<CardModel> getEvolution, bool forPreview)
+{
+    CardModel cardModel = getEvolution();
+
+    if (prevo.IsUpgraded && cardModel.IsUpgradable)
+    {
+        if (forPreview)
+        {
+            cardModel.UpgradeInternal();
+        }
+        else
+        {
+            CardCmd.Upgrade(cardModel);
+        }
+    }
+    if (prevo.Enchantment != null)
+    {
+        EnchantmentModel enchantmentModel = (EnchantmentModel)prevo.Enchantment.MutableClone();
+        if (enchantmentModel.CanEnchant(cardModel))
+        {
+            if (forPreview)
             {
-                MainFile.Logger.Info(item.Title);
-                var transformation = new CardTransformation(item, Evolve(item, forPreview: false));
-                
-                await CardCmd.Transform(new List<CardTransformation> { transformation }, base.Owner.PlayerRng.Transformations);          
+                cardModel.EnchantInternal(enchantmentModel, enchantmentModel.Amount);
+                enchantmentModel.ModifyCard();
             }
-
-           
-    
-            
-		} 
-		
-			    
-		return true;
-		
-		
-		// 
-	}
-	
-	private CardModel Evolve(CardModel prevo, bool forPreview)
-	{
-            CardModel cardModel = (forPreview ? ModelDb.Card<Silcoon>().ToMutable() : base.Owner.RunState.CreateCard<Silcoon>(base.Owner));
-            if (prevo.IsUpgraded && cardModel.IsUpgradable)
+            else
             {
-                if (forPreview)
-                {
-                    cardModel.UpgradeInternal();
-                }
-                else
-                {
-                    CardCmd.Upgrade(cardModel);
-                }
+                CardCmd.Enchant(enchantmentModel, cardModel, enchantmentModel.Amount);
             }
-            if (prevo.Enchantment != null)
-            {
-                EnchantmentModel enchantmentModel = (EnchantmentModel)prevo.Enchantment.MutableClone();
-                if (enchantmentModel.CanEnchant(cardModel))
-                {
-                    if (forPreview)
-                    {
-                        cardModel.EnchantInternal(enchantmentModel, enchantmentModel.Amount);
-                        enchantmentModel.ModifyCard();
-                    }
-                    else
-                    {
-                        CardCmd.Enchant(enchantmentModel, cardModel, enchantmentModel.Amount);
-                    }
-                }
-            }
-            return cardModel;
-	}
+        }
+    }
+    return cardModel;
+}
 	
 /*
 	public override Task DoLocalPostSelectVfx(CancellationToken ct = default(CancellationToken))
