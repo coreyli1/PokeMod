@@ -15,7 +15,7 @@ namespace PokeMod.PokeModCode.Cards;
 
 
 [Pool(typeof(BugCatcherCardPool))]
-public sealed class Tackle() : PokeModCard(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
+public sealed class Tackle() : PokeModCard(0, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
 
     protected override IEnumerable<DynamicVar> CanonicalVars =>

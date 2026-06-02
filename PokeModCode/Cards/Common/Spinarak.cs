@@ -13,7 +13,7 @@ namespace PokeMod.PokeModCode.Cards;
 
 
 [Pool(typeof(BugCatcherCardPool))]
-public sealed class Spinarak() : PokeModCard(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
+public sealed class Spinarak() : PokeModCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
     //add evolve keyword
     public override IEnumerable<CardKeyword> CanonicalKeywords => [

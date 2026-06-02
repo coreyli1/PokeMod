@@ -13,7 +13,7 @@ namespace PokeMod.PokeModCode.Cards;
 
 
 [Pool(typeof(BugCatcherCardPool))]
-public sealed class BugBuzz() : PokeModCard(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
+public sealed class BugBuzz() : PokeModCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
 
     
