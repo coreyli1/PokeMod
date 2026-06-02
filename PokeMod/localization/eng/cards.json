@@ -63,7 +63,18 @@
   "POKEMOD-STRING_SHOT.title": "String Shot",
 
   "POKEMOD-PIN_MISSILE.description": "Deal {Damage:diff()} damage twice.",
-  "POKEMOD-PIN_MISSILE.title": "Pin Missile"
+  "POKEMOD-PIN_MISSILE.title": "Pin Missile",
+
+  "POKEMOD-VENIPIDE.description": "Deal {Damage:diff()} damage.\\nIf the enemy is [gold]Poison[/gold], hits twice.",
+  "POKEMOD-VENIPIDE.title": "Venipide",
+
+  "POKEMOD-WHIRLIPEDE.description": "Apply {PoisonPower:diff()} [gold]Poison[/gold].\nDeal {Damage:diff()} damage.\nIf the enemy is [gold]Poison[/gold], hits twice.",
+  "POKEMOD-WHIRLIPEDE.title": "Whirlipede",
+
+  "POKEMOD-SCOLIPEDE.description": "Apply {PoisonPower:diff()} [gold]Poison[/gold].\nDeal {Damage:diff()}  to ALL enemies.",
+  "POKEMOD-SCOLIPEDE.title": "Scolipede"
+  
+  
   
   
   
