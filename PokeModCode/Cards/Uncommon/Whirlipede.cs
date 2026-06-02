@@ -23,7 +23,6 @@ namespace PokeMod.PokeModCode.Cards;
 public sealed class Whirlipede() : PokeModCard(1, CardType.Attack,
     CardRarity.Event, TargetType.AnyEnemy)
 {
-    protected override bool ShouldGlowGoldInternal => base.CombatState?.HittableEnemies.Any((Creature e) => e.HasPower<PoisonPower>()) ?? false;
     
     //add evolve keyword
     public override IEnumerable<CardKeyword> CanonicalKeywords => [

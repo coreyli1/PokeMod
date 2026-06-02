@@ -24,7 +24,7 @@ namespace PokeMod.PokeModCode.Cards;
 public sealed class Scolipede() : PokeModCard(2, CardType.Attack,
     CardRarity.Event, TargetType.AllEnemies)
 {
-    protected override bool ShouldGlowGoldInternal => base.CombatState?.HittableEnemies.Any((Creature e) => e.HasPower<PoisonPower>()) ?? false;
+
     
     //add evolve keyword
     public override IEnumerable<CardKeyword> CanonicalKeywords => [
@@ -46,12 +46,12 @@ public sealed class Scolipede() : PokeModCard(2, CardType.Attack,
         PlayerChoiceContext choiceContext,
         CardPlay cardPlay)
     {
-        ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
-        await PowerCmd.Apply<PoisonPower>(choiceContext, cardPlay.Target, base.DynamicVars.Poison.BaseValue, base.Owner.Creature, this);
-        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).WithHitCount(1).FromCard(this)
-            .TargetingAllOpponents(base.CombatState)
+
+        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this).TargetingAllOpponents(base.CombatState)
             .WithHitFx("vfx/vfx_giant_horizontal_slash")
             .Execute(choiceContext);
+        await PowerCmd.Apply<PoisonPower>(choiceContext, base.CombatState.HittableEnemies, base.DynamicVars.Poison.BaseValue, base.Owner.Creature, this);
+
     }
 
     protected override void OnUpgrade()
