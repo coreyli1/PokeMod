@@ -5,7 +5,6 @@
   "POKEMOD-STRIKE_BUG_CATCHER.description": "Deal {Damage:diff()} damage.",
   "POKEMOD-STRIKE_BUG_CATCHER.title": "Strike", 
   
-  
   "POKEMOD-WURMPLE.description": "Deal {Damage:diff()} damage.\nApply {WeakPower:diff()} [gold]Weak[/gold].",
   "POKEMOD-WURMPLE.title": "Wurmple",
 
@@ -25,7 +24,15 @@
   "POKEMOD-ARIADOS.title": "Ariados",
 
   "POKEMOD-TACKLE.description": "Deal {Damage:diff()} damage.",
-  "POKEMOD-TACKLE.title": "Tackle"
+  "POKEMOD-TACKLE.title": "Tackle",
+
+  "POKEMOD-BUG_BUZZ.description": "Deal {Damage:diff()} damage to ALL enemies.\nApply {WeakPower:diff()} [gold]Weak[/gold] to ALL enemies.",
+  "POKEMOD-BUG_BUZZ.title": "Bug Buzz",
+
+  "POKEMOD-LEECH_LIFE.description": "Deal {Damage:diff()} damage.\n Gain {DexterityPower:diff()} [gold]Dexterity[/gold]this turn.",
+  "POKEMOD-LEECH_LIFE.title": "Leech Life"
+  
+  
   
   
   
