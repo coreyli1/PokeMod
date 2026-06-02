@@ -18,7 +18,7 @@ namespace PokeMod.PokeModCode.Cards;
 
 [Pool(typeof(BugCatcherCardPool))]
 public sealed class WormadanPlant() : PokeModCard(2, CardType.Skill,
-    CardRarity.Common, TargetType.Self)
+    CardRarity.Event, TargetType.Self)
 {
     
     

@@ -14,7 +14,7 @@ namespace PokeMod.PokeModCode.Cards;
 
 
 [Pool(typeof(BugCatcherCardPool))]
-public sealed class Ariados() : PokeModCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
+public sealed class Ariados() : PokeModCard(1, CardType.Attack, CardRarity.Event, TargetType.AnyEnemy)
 {
     //add evolve keyword
     public override IEnumerable<CardKeyword> CanonicalKeywords => [
