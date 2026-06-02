@@ -30,15 +30,15 @@ public sealed class Ariados() : PokeModCard(1, CardType.Attack, CardRarity.Commo
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new DamageVar(9, ValueProp.Move),
-        new PowerVar<WeakPower>("PoisonPower", 5)
+        new PowerVar<PoisonPower>(5m)
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         ArgumentNullException.ThrowIfNull(cardPlay.Target);
-        await CommonActions.CardAttack(this, cardPlay).Execute(choiceContext);
-        await PowerCmd.Apply<PoisonPower>(choiceContext, cardPlay.Target, DynamicVars.Weak.BaseValue,
-            Owner.Creature, this);
+        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this).Targeting(cardPlay.Target).Execute(choiceContext);
+        await PowerCmd.Apply<PoisonPower>(choiceContext, cardPlay.Target, base.DynamicVars.Poison.BaseValue, base.Owner.Creature, this);
+
 
 
 

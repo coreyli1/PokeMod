@@ -17,10 +17,10 @@
   "POKEMOD-HARDEN.description": "Gain {Block:diff()} block.\nGain {PlatingPower:diff()} [gold]Plating[/gold].",
   "POKEMOD-HARDEN.title": "Harden",
 
-  "POKEMOD-SPINARAK.description": "Deal {Damage:diff()} damage.\nApply {PowerPower:diff()} [gold]Poison[/gold].",
+  "POKEMOD-SPINARAK.description": "Deal {Damage:diff()} damage.\nApply {PoisonPower:diff()} [gold]Poison[/gold].",
   "POKEMOD-SPINARAK.title": "Spinarak",
 
-  "POKEMOD-ARIADOS.description": "Deal {Damage:diff()} damage.\nApply {PowerPower:diff()} [gold]Poison[/gold].",
+  "POKEMOD-ARIADOS.description": "Deal {Damage:diff()} damage.\nApply {PoisonPower:diff()} [gold]Poison[/gold].",
   "POKEMOD-ARIADOS.title": "Ariados",
 
   "POKEMOD-TACKLE.description": "Deal {Damage:diff()} damage.",
@@ -29,8 +29,20 @@
   "POKEMOD-BUG_BUZZ.description": "Deal {Damage:diff()} damage to ALL enemies.\nApply {WeakPower:diff()} [gold]Weak[/gold] to ALL enemies.",
   "POKEMOD-BUG_BUZZ.title": "Bug Buzz",
 
-  "POKEMOD-LEECH_LIFE.description": "Deal {Damage:diff()} damage.\n Gain {DexterityPower:diff()} [gold]Dexterity[/gold]this turn.",
-  "POKEMOD-LEECH_LIFE.title": "Leech Life"
+  "POKEMOD-LEECH_LIFE.description": "Deal {Damage:diff()} damage.\n Gain {DexterityPower:diff()} [gold]Dexterity[/gold] this turn.",
+  "POKEMOD-LEECH_LIFE.title": "Leech Life",
+
+  "POKEMOD-KRICKETOT.description": "Lose {PlayerStrengthLoss:diff()} [gold]Strength[/gold].\\nGain {Energy:energyIcons()}.",
+  "POKEMOD-KRICKETOT.title": "Kricketot",
+
+  "POKEMOD-KRICKETUNE.description": "Lose {PlayerStrengthLoss:diff()} [gold]Strength[/gold].\\nGain {Energy:energyIcons()}.",
+  "POKEMOD-KRICKETUNE.title": "Kricketune",
+
+  "POKEMOD-BURMY_PLANT.description": "Gain {Block:diff()} Block {Repeat:diff()} {Repeat:plural:time|times}.",
+  "POKEMOD-BURMY_PLANT.title": "BurmyPlant",
+
+  "POKEMOD-WORMADAN_PLANT.description": "Gain {Block:diff()} Block {Repeat:diff()} {Repeat:plural:time|times}.",
+  "POKEMOD-WORMADAN_PLANT.title": "WormadanPlant"
   
   
   
