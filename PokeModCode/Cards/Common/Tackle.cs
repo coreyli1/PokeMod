@@ -13,43 +13,26 @@ namespace PokeMod.PokeModCode.Cards;
 
 
 
-[Pool(typeof(BugCatcherCardPool))]
-public sealed class Beautifly() : PokeModCard(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
-{
 
-    
-    protected override IEnumerable<IHoverTip> ExtraHoverTips =>
-    [
-        HoverTipFactory.FromPower<WeakPower>(),
-        HoverTipFactory.FromKeyword(PokeModCode.Keywords.Evolve)
-    ];
+[Pool(typeof(BugCatcherCardPool))]
+public sealed class Tackle() : PokeModCard(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
+{
 
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new DamageVar(4, ValueProp.Move),
-        new BlockVar(5m, ValueProp.Move),
-        new PowerVar<WeakPower>("WeakPower", 2)
+        new DamageVar(6, ValueProp.Move),
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         ArgumentNullException.ThrowIfNull(cardPlay.Target);
         await CommonActions.CardAttack(this, cardPlay).Execute(choiceContext);
-        await PowerCmd.Apply<WeakPower>(choiceContext, cardPlay.Target, DynamicVars.Weak.BaseValue, Owner.Creature, this);
-        await CreatureCmd.GainBlock(base.Owner.Creature, base.DynamicVars.Block, cardPlay);
-
-
-
     }
-    
-    
-
 
     protected override void OnUpgrade()
     {
 
-        DynamicVars.Damage.UpgradeValueBy(2m);   
-        
+        DynamicVars.Damage.UpgradeValueBy(3m);    
 
     }
 

@@ -35,6 +35,7 @@ public class EvolveRestSiteOption : RestSiteOption
     {
         { "Wurmple", () => ModelDb.Card<Silcoon>() },
         { "Silcoon", () => ModelDb.Card<Beautifly>() },
+        { "Spinarak", () => ModelDb.Card<Ariados>() }
     };
     
     private IEnumerable<CardModel>? _selection;

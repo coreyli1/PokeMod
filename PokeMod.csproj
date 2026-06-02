@@ -60,6 +60,8 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="PokeModCode\Cards\Rare\" />
+      <Folder Include="PokeModCode\Cards\Uncommon\" />
       <Folder Include="PokeMod\images\" />
       <Folder Include="PokeMod\localization\" />
     </ItemGroup>
