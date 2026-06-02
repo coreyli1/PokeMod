@@ -14,8 +14,8 @@ namespace PokeMod.PokeModCode.Cards;
 
 
 [Pool(typeof(BugCatcherCardPool))]
-public sealed class PoisonFang() : PokeModCard(1,CardType.Skill,
-    CardRarity.Common, TargetType.Self)
+public sealed class PoisonFang() : PokeModCard(2,CardType.Skill,
+    CardRarity.Common, TargetType.AnyEnemy)
 {
     
     public override IEnumerable<CardKeyword> CanonicalKeywords => [

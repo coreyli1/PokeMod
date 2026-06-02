@@ -21,7 +21,7 @@ public sealed class LeechSeed() : PokeModCard(1,CardType.Skill,
     
     public override IEnumerable<CardKeyword> CanonicalKeywords => [
 
-        CardKeyword.Retain
+       // CardKeyword.Retain
     ];    
     
     public override bool GainsBlock => true;
@@ -32,16 +32,15 @@ public sealed class LeechSeed() : PokeModCard(1,CardType.Skill,
     
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new BlockVar(5, ValueProp.Move),
-        new PowerVar<RegenPower>(5m),
+        new PowerVar<RegenPower>(3m),
         
     ];
     
     
     protected override async Task OnPlay( PlayerChoiceContext choiceContext, CardPlay play)
     {
-        ArgumentNullException.ThrowIfNull(play.Target, "cardPlay.Target");
-        await CreatureCmd.TriggerAnim(base.Owner.Creature, "Cast", base.Owner.Character.CastAnimDelay);
-        await PowerCmd.Apply<RegenPower>(choiceContext, play.Target, base.DynamicVars["RegenPower"].BaseValue, base.Owner.Creature, null);
+        await CommonActions.CardBlock(this, play);
+        await PowerCmd.Apply<RegenPower>(choiceContext, base.Owner.Creature, base.DynamicVars["RegenPower"].BaseValue, base.Owner.Creature, null);
     }
 
     protected override void OnUpgrade()

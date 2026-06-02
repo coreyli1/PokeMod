@@ -15,7 +15,7 @@ namespace PokeMod.PokeModCode.Cards;
       
 [Pool(typeof(BugCatcherCardPool))]
 public sealed class SpiderWeb() : PokeModCard(1, CardType.Skill,
-    CardRarity.Basic, TargetType.Self)
+    CardRarity.Basic, TargetType.AnyEnemy)
 {
     public override bool GainsBlock => true;
     
@@ -34,7 +34,6 @@ public sealed class SpiderWeb() : PokeModCard(1, CardType.Skill,
         CardPlay play)
     {
         ArgumentNullException.ThrowIfNull(play.Target, "play.Target");
-        await CreatureCmd.GainBlock(base.Owner.Creature, base.DynamicVars.Block, play);
         await PowerCmd.Apply<PlatingPower>(choiceContext, base.Owner.Creature, base.DynamicVars["PlatingPower"].BaseValue, base.Owner.Creature, this);
         await PowerCmd.Apply<WeakPower>(choiceContext, play.Target, DynamicVars.Weak.BaseValue, Owner.Creature, this);
     }

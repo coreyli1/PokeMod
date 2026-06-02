@@ -15,8 +15,8 @@ namespace PokeMod.PokeModCode.Cards;
 
 
 [Pool(typeof(BugCatcherCardPool))]
-public sealed class PoisonSting() : PokeModCard(2,CardType.Skill,
-    CardRarity.Common, TargetType.Self)
+public sealed class PoisonSting() : PokeModCard(1,CardType.Skill,
+    CardRarity.Common, TargetType.AnyEnemy)
 {
     
     
