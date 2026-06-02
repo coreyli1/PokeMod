@@ -39,10 +39,31 @@
   "POKEMOD-KRICKETUNE.title": "Kricketune",
 
   "POKEMOD-BURMY_PLANT.description": "Gain {Block:diff()} Block {Repeat:diff()} {Repeat:plural:time|times}.",
-  "POKEMOD-BURMY_PLANT.title": "BurmyPlant",
+  "POKEMOD-BURMY_PLANT.title": "Burmy-Plant",
 
   "POKEMOD-WORMADAN_PLANT.description": "Gain {Block:diff()} Block {Repeat:diff()} {Repeat:plural:time|times}.",
-  "POKEMOD-WORMADAN_PLANT.title": "WormadanPlant"
+  "POKEMOD-WORMADAN_PLANT.title": "Wormadan-Plant",
+
+  "POKEMOD-POISON_FANG.description": "Apply {PoisonPower:diff()} [gold]Poison[/gold].",
+  "POKEMOD-POISON_FANG.title": "Poison Fang",
+
+  "POKEMOD-POISON_STING.description": "Apply {PoisonPower:diff()} [gold]Poison[/gold].",
+  "POKEMOD-POISON_STING.title": "Poison Sting",
+
+  "POKEMOD-SPIDER_WEB.description": "Apply {WeakPower:diff()} [gold]Weak[/gold]. Gain {PlatingPower:diff()} [gold]Plating[/gold].",
+  "POKEMOD-SPIDER_WEB.title": "Spider Web",
+
+  "POKEMOD-LEECH_SEED.description": "Gain {Block:diff()} Block. Gain {RegenPower:diff} Regen.",
+  "POKEMOD-LEECH_SEED.title": "Leech Seed",
+
+  "POKEMOD-AGILITY.description": "Draw {Cards:diff()} cards. Gain {PlatingPower:diff()} [gold]Plating[/gold].",
+  "POKEMOD-AGILITY.title": "Agility",
+
+  "POKEMOD-STRING_SHOT.description": "ALL enemies lose {StrengthLoss:diff()} [gold]Strength[/gold] this turn.",
+  "POKEMOD-STRING_SHOT.title": "String Shot",
+
+  "POKEMOD-PIN_MISSILE.description": "Deal {Damage:diff()} damage twice.",
+  "POKEMOD-PIN_MISSILE.title": "Pin Missile"
   
   
   
