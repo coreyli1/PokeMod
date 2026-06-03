@@ -12,6 +12,8 @@ namespace PokeMod.PokeModCode.Cards;
 [Pool(typeof(BugCatcherCardPool))]
 public sealed class Escavalier() : PokeModCard(2, CardType.Skill, CardRarity.Uncommon, TargetType.Self)
 {
+    
+    protected override HashSet<CardTag> CanonicalTags => new HashSet<CardTag> { PokeModCode.Tags.Evolve };
     public override bool GainsBlock => true;
     protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(20, ValueProp.Move)];
 
