@@ -23,7 +23,7 @@ namespace PokeMod.PokeModCode.Cards;
 public sealed class Whirlipede() : PokeModCard(1, CardType.Attack,
     CardRarity.Event, TargetType.AnyEnemy)
 {
-    
+    protected override HashSet<CardTag> CanonicalTags => new HashSet<CardTag> { PokeModCode.Tags.Evolve };
     //add evolve keyword
     public override IEnumerable<CardKeyword> CanonicalKeywords => [
         PokeModCode.Keywords.Evolve,

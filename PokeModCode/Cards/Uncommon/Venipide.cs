@@ -22,6 +22,8 @@ namespace PokeMod.PokeModCode.Cards;
 public sealed class Venipide() : PokeModCard(1, CardType.Attack,
     CardRarity.Uncommon, TargetType.AnyEnemy)
 {
+    
+    protected override HashSet<CardTag> CanonicalTags => new HashSet<CardTag> { PokeModCode.Tags.Evolve };
     protected override bool ShouldGlowGoldInternal => base.CombatState?.HittableEnemies.Any((Creature e) => e.HasPower<PoisonPower>()) ?? false;
     
     //add evolve keyword

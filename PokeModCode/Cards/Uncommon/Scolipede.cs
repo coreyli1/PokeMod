@@ -25,7 +25,7 @@ public sealed class Scolipede() : PokeModCard(2, CardType.Attack,
     CardRarity.Event, TargetType.AllEnemies)
 {
 
-    
+    protected override HashSet<CardTag> CanonicalTags => new HashSet<CardTag> { PokeModCode.Tags.Evolve };
     //add evolve keyword
     public override IEnumerable<CardKeyword> CanonicalKeywords => [
         PokeModCode.Keywords.Evolve,
