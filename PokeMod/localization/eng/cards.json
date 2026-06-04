@@ -71,8 +71,24 @@
   "POKEMOD-WHIRLIPEDE.description": "Apply {PoisonPower:diff()} [gold]Poison[/gold].\nDeal {Damage:diff()} damage.\nIf the enemy is [gold]Poison[/gold], hits twice.",
   "POKEMOD-WHIRLIPEDE.title": "Whirlipede",
 
-  "POKEMOD-SCOLIPEDE.description": "Apply {PoisonPower:diff()} [gold]Poison[/gold].\nDeal {Damage:diff()}  to ALL enemies.",
-  "POKEMOD-SCOLIPEDE.title": "Scolipede"
+  "POKEMOD-SCOLIPEDE.description": "Apply {PoisonPower:diff()} [gold]Poison[/gold] to ALL enemies.\nDeal {Damage:diff()} to ALL enemies.",
+  "POKEMOD-SCOLIPEDE.title": "Scolipede",
+
+  "POKEMOD-BURMY_SANDY.description": "Gain {Dexterity:diff()} dexterity.\\nGain {CalculationExtra:diff()} additional dexterity for ALL your cards containing “Evolve”.",
+  "POKEMOD-BURMY_SANDY.title": "Burmy-Sandy",
+
+
+  "POKEMOD-WORMADAN_SANDY.description": "Gain {Dexterity:diff())} dexterity.\\nGain {CalculationExtra:diff()} additional dexterity for ALL your cards containing “Evolve”.",
+  "POKEMOD-WORMADAN_SANDY.title": "Wormadan-Sandy",
+
+
+  "POKEMOD-KARRABLAST.description": "Gain {Block:diff()} [gold]Block[/gold].",
+  "POKEMOD-KARRABLAST.title": "Karrablast",
+
+
+  "POKEMOD-ESCAVALIER.description": "Gain {Block:diff()} [gold]Block[/gold].",
+  "POKEMOD-ESCAVALIER.title": "Escavalier"
+  
   
   
   
