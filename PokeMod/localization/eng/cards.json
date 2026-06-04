@@ -87,7 +87,13 @@
 
 
   "POKEMOD-ESCAVALIER.description": "Gain {Block:diff()} [gold]Block[/gold].",
-  "POKEMOD-ESCAVALIER.title": "Escavalier"
+  "POKEMOD-ESCAVALIER.title": "Escavalier",
+
+  "POKEMOD-SHELMET.description": "This turn, your next {Skills:plural:Skill is|{:diff()} Skills are} played an extra time.",
+  "POKEMOD-SHELMET.title": "Shelmet",
+
+  "POKEMOD-ACCELGOR.description": "This turn, your next {Skills:plural:Skill is|{:diff()} Skills are} played an extra time.",
+  "POKEMOD-ACCELGOR.title": "Accelgor"
   
   
   

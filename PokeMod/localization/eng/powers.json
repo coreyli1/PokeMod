@@ -1,7 +1,11 @@
 {
   "POKEMOD-EVOLVE_POWER.description": "",
   "POKEMOD-EVOLVE_POWER.smartDescription": "",
-  "POKEMOD-EVOLVE_POWER.title": "EvolvePower"
+  "POKEMOD-EVOLVE_POWER.title": "EvolvePower",
+
+  "SHELMET_POWER.description": "This turn, your next Skill is played an extra time.",
+  "SHELMET_POWER.smartDescription": "Your next {Amount:plural:Skill is|[blue]{}[/blue] Skills are} played an extra time this turn.",
+  "SHELMET_POWER.title": "Shelmet"
   
   
   
