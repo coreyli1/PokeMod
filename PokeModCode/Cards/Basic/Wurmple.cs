@@ -14,6 +14,8 @@ namespace PokeMod.PokeModCode.Cards;
 [Pool(typeof(BugCatcherCardPool))]
 public sealed class Wurmple() : PokeModCard(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
 {
+    protected override HashSet<CardTag> CanonicalTags => new HashSet<CardTag> { PokeModCode.Tags.Evolve };
+    
     //add evolve keyword
     public override IEnumerable<CardKeyword> CanonicalKeywords => [
         PokeModCode.Keywords.Evolve,

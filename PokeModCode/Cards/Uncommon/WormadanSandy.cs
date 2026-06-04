@@ -23,12 +23,11 @@ namespace PokeMod.PokeModCode.Cards;
 
 [Pool(typeof(BugCatcherCardPool))]
 public sealed class WormadanSandy() : PokeModCard(1, CardType.Attack,
-    CardRarity.Uncommon, TargetType.Self)
+    CardRarity.Event, TargetType.Self)
 {
     protected override HashSet<CardTag> CanonicalTags => new HashSet<CardTag> { PokeModCode.Tags.Evolve };
-    //add evolve keyword
+
     public override IEnumerable<CardKeyword> CanonicalKeywords => [
-        PokeModCode.Keywords.Evolve,
         CardKeyword.Exhaust
     ];    
     

@@ -17,6 +17,7 @@ namespace PokeMod.PokeModCode.Cards;
 public sealed class Beautifly() : PokeModCard(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
 {
 
+    protected override HashSet<CardTag> CanonicalTags => new HashSet<CardTag> { PokeModCode.Tags.Evolve };
     
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
