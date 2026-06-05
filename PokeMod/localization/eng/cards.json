@@ -93,7 +93,14 @@
   "POKEMOD-SHELMET.title": "Shelmet",
 
   "POKEMOD-ACCELGOR.description": "This turn, your next {Skills:plural:Skill is|{:diff()} Skills are} played an extra time.",
-  "POKEMOD-ACCELGOR.title": "Accelgor"
+  "POKEMOD-ACCELGOR.title": "Accelgor",
+
+  "POKEMOD-NINCADA.description": "Draw {Cards:diff()}. Double your current [gold]Plating[/gold].",
+  "POKEMOD-NINCADA.title": "Nincada",
+
+
+  "POKEMOD-NINJASK.description": "Draw {Cards:diff()}. Double your current [gold]Plating[/gold].",
+  "POKEMOD-NINJASK.title": "Ninjask"
   
   
   
