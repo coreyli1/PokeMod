@@ -1,3 +1,4 @@
+using BaseLib.Abstracts;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -11,8 +12,9 @@ using MegaCrit.Sts2.Core.Models;
 
 
 
+namespace PokeMod.PokeModCode.Powers;
 
-public sealed class ShelmetPower : PowerModel
+public sealed class ShelmetPower : CustomPowerModel
 {
     public override PowerType Type => PowerType.Buff;
 
