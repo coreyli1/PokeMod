@@ -100,7 +100,16 @@
 
 
   "POKEMOD-NINJASK.description": "Draw {Cards:diff()}. Double your current [gold]Plating[/gold].",
-  "POKEMOD-NINJASK.title": "Ninjask"
+  "POKEMOD-NINJASK.title": "Ninjask",
+
+  "POKEMOD-ANORITH.description": "At the end of your turn, [gold]Retain[/gold] up to {RetainAmount:diff()} {RetainAmount:plural:card|cards}.",
+  "POKEMOD-ANORITH.title": "Anorith",
+
+  "POKEMOD-ARMALDO.description": "At the end of your turn, [gold]Retain[/gold] up to {RetainAmount:diff()} {RetainAmount:plural:card|cards}.",
+  "POKEMOD-ARMALDO.title": "Armaldo",
+
+  "POKEMOD-SCYTHER.description": "The first {Attacks:cond:>1?{Attacks:diff()} Attacks are|Attack is} played an extra time.",
+  "POKEMOD-SCYTHER.title": "Scyther"
   
   
   
