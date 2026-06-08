@@ -117,7 +117,7 @@
   "POKEMOD-PINECO.description": "Gain {PlatingPower:diff()} [gold]Plating[/gold].",
   "POKEMOD-PINECO.title": "Pineco",
 
-  "POKEMOD-FORRETRESS.description": "",
+  "POKEMOD-FORRETRESS.description": "Gain {CalculationExtra:diff()} [gold]Plating[/gold] for ALL your cards containing “Evolve”.",
   "POKEMOD-FORRETRESS.title": "Forretress"
 
   
