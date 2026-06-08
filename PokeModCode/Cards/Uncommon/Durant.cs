@@ -18,7 +18,7 @@ namespace PokeMod.PokeModCode.Cards;
 
 [Pool(typeof(BugCatcherCardPool))]
 public sealed class Durant() : PokeModCard(1, CardType.Skill,
-    CardRarity.Event, TargetType.AnyEnemy)
+    CardRarity.Uncommon, TargetType.AnyEnemy)
 {
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
