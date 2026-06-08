@@ -109,7 +109,17 @@
   "POKEMOD-ARMALDO.title": "Armaldo",
 
   "POKEMOD-SCYTHER.description": "The first {Attacks:cond:>1?{Attacks:diff()} Attacks are|Attack is} played an extra time.",
-  "POKEMOD-SCYTHER.title": "Scyther"
+  "POKEMOD-SCYTHER.title": "Scyther",
+
+  "POKEMOD-SCIZOR.description": "",
+  "POKEMOD-SCIZOR.title": "Scizor",
+
+  "POKEMOD-PINECO.description": "Gain {PlatingPower:diff()} [gold]Plating[/gold].",
+  "POKEMOD-PINECO.title": "Pineco",
+
+  "POKEMOD-FORRETRESS.description": "",
+  "POKEMOD-FORRETRESS.title": "Forretress"
+
   
   
   
