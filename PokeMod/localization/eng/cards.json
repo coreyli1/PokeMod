@@ -118,7 +118,22 @@
   "POKEMOD-PINECO.title": "Pineco",
 
   "POKEMOD-FORRETRESS.description": "Gain {CalculationExtra:diff()} [gold]Plating[/gold] for ALL your cards containing “Evolve”.",
-  "POKEMOD-FORRETRESS.title": "Forretress"
+  "POKEMOD-FORRETRESS.title": "Forretress",
+
+  "POKEMOD-FURY_CUTTER.description": "Deal {Damage:diff()} damage 3 times.\\nIncrease this card's damage by {Increase:diff()} this combat.",
+  "POKEMOD-FURY_CUTTER.title": "Fury Cutter",
+
+  "POKEMOD-LUNGE.description": "Deal {Damage:diff()} damage.\nEnemy loses {StrengthLoss:diff()} strength.",
+  "POKEMOD-LUNGE.title": "Lunge",
+
+  "POKEMOD-ATTACK_ORDER.description": "Deal {CalculatedDamage:diff()} damage to ALL enemies.\\nDeals {ExtraDamage:diff()} additional damage for each unique debuff on the enemy.",
+  "POKEMOD-ATTACK_ORDER.title": "Attack Order",
+
+  "POKEMOD-LEECHIER_LIFE.description": "Deal {Damage:diff()} damage.\n Gain {DexterityPower:diff()} [gold]Dexterity[/gold] this turn.",
+  "POKEMOD-LEECHIER_LIFE.title": "Leechier Life",
+
+  "POKEMOD-DURANT.description": "Deal {CalculatedDamage:diff()} damage X times.",
+  "POKEMOD-DURANT.title": "Durant"
 
   
   
