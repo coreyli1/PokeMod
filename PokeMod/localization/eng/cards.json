@@ -133,7 +133,16 @@
   "POKEMOD-LEECHIER_LIFE.title": "Leechier Life",
 
   "POKEMOD-DURANT.description": "Deal {CalculatedDamage:diff()} damage X times.",
-  "POKEMOD-DURANT.title": "Durant"
+  "POKEMOD-DURANT.title": "Durant",
+
+  "POKEMOD-PINSIR.description": "Deal {Damage:diff()} damage. Draw {Cards:diff()} cards.",
+  "POKEMOD-PINSIR.title": "Pinsir",
+
+  "POKEMOD-ACCUPRESSURE.description": "Deal {Damage:diff()} damage.\\n[gold]Vulnerable[/gold] and [gold]Weak[/gold] are twice as effective against the enemy for the next {DebilitatePower:diff()} {DebilitatePower:plural:turn|turns}.",
+  "POKEMOD-ACCUPRESSURE.title": "Accupressure",
+
+  "POKEMOD-STUN_SPORE.description": "Stun the enemy.",
+  "POKEMOD-STUN_SPORE.title": "Stun Spore"
 
   
   
