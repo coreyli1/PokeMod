@@ -3,9 +3,18 @@
   "POKEMOD-EVOLVE_POWER.smartDescription": "",
   "POKEMOD-EVOLVE_POWER.title": "EvolvePower",
 
-  "SHELMET_POWER.description": "This turn, your next Skill is played an extra time.",
-  "SHELMET_POWER.smartDescription": "Your next {Amount:plural:Skill is|[blue]{}[/blue] Skills are} played an extra time this turn.",
-  "SHELMET_POWER.title": "Shelmet"
+  "POKEMOD-SHELMET_POWER.description": "This turn, your next Skill is played an extra time.",
+  "POKEMOD-SHELMET_POWER.smartDescription": "Your next {Amount:plural:Skill is|[blue]{}[/blue] Skills are} played an extra time this turn.",
+  "POKEMOD-SHELMET_POWER.title": "Shelmet",
+
+  "POKEMOD-ANORITH_POWER.description": "At the end of your turn, [gold]Retain[/gold] up to [blue]1[/blue] card.",
+  "POKEMOD-ANORITH_POWER.selectionScreenPrompt": "Choose {Amount:plural:a card|{} cards} to Retain.",
+  "POKEMOD-ANORITH_POWER.smartDescription": "At the end of your turn, [gold]Retain[/gold] up to [blue]{Amount}[/blue] {Amount:plural:card|cards}.",
+  "POKEMOD-ANORITH_POWER.title": "Anorith",
+
+  "POKEMOD-SCYTHER_POWER.description": "Your first attack is played twice each turn.",
+  "POKEMOD-SCYTHER_POWER.smartDescription": "Your first attack is played twice each turn.",
+  "POKEMOD-SCYTHER_POWER.title": "Scyther"
   
   
   

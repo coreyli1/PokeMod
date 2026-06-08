@@ -60,7 +60,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="PokeMod\images\" />
       <Folder Include="PokeMod\localization\" />
     </ItemGroup>
 
