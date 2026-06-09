@@ -16,7 +16,7 @@ namespace PokeMod.PokeModCode.Cards;
 
 
 [Pool(typeof(BugCatcherCardPool))]
-public sealed class Fly() : PokeModCard(1, CardType.Skill,
+public sealed class Fly() : PokeModCard(2, CardType.Skill,
     CardRarity.Uncommon, TargetType.Self)
 {
     
