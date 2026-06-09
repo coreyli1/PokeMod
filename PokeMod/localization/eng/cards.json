@@ -151,7 +151,10 @@
   "POKEMOD-FLY.title": "Fly",
   
   "POKEMOD-TWINEEDLE.description": "Choose an Attack or Power card. Add {IfUpgraded:show:{Cards} copies|a copy} of that card into your [gold]Hand[/gold].",
-  "POKEMOD-TWINEEDLE.title": "Twineedle"
+  "POKEMOD-TWINEEDLE.title": "Twineedle",
+
+  "POKEMOD-STRUGGLE_BUG.description": "Enemy loses {EnemyStrengthLoss:diff()} [gold]Strength[/gold].",
+  "POKEMOD-STRUGGLE_BUG.title": "Struggle Bug"
 
   
   
