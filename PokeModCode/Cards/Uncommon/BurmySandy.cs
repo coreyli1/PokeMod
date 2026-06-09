@@ -34,7 +34,7 @@ public sealed class BurmySandy() : PokeModCard(1, CardType.Attack,
     
     
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
-        
+        HoverTipFactory.FromPower<DexterityPower>()
     ];
     
     protected override IEnumerable<DynamicVar> CanonicalVars => [

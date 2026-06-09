@@ -33,7 +33,7 @@ public sealed class WormadanSandy() : PokeModCard(1, CardType.Attack,
     
     
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
-        
+        HoverTipFactory.FromPower<DexterityPower>()
     ];
     
     protected override IEnumerable<DynamicVar> CanonicalVars => [
