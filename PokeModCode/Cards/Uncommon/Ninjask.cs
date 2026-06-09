@@ -15,13 +15,13 @@ namespace PokeMod.PokeModCode.Cards;
 
 
 [Pool(typeof(BugCatcherCardPool))]
-public sealed class Ninjask() : PokeModCard(1, CardType.Skill, CardRarity.Uncommon, TargetType.Self)
+public sealed class Ninjask() : PokeModCard(2, CardType.Skill, CardRarity.Event, TargetType.Self)
 {
 
     protected override HashSet<CardTag> CanonicalTags => new HashSet<CardTag> { PokeModCode.Tags.Evolve };
     //add evolve keyword
     public override IEnumerable<CardKeyword> CanonicalKeywords => [
-        PokeModCode.Keywords.Evolve,
+
     ];    
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [
@@ -51,6 +51,6 @@ public sealed class Ninjask() : PokeModCard(1, CardType.Skill, CardRarity.Uncomm
 
     protected override void OnUpgrade()
     {
-        base.EnergyCost.UpgradeBy(-1);
+        base.EnergyCost.UpgradeBy(-2);
     }
 }
