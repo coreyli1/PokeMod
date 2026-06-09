@@ -145,7 +145,10 @@
   "POKEMOD-STUN_SPORE.title": "Stun Spore",
 
   "POKEMOD-POISON_POWDER.description": "Apply {Poison:diff} [gold]Poison[/gold] and {Weak:diff} [gold]Weak[/gold] to ALL enemies.  ",
-  "POKEMOD-POISON_POWDER.title": "Poison Powder"
+  "POKEMOD-POISON_POWDER.title": "Poison Powder",
+
+  "POKEMOD-FLY.description": "Draw {Cards:diff} cards.\nNext turn draw {Cards:diff} cards.",
+  "POKEMOD-FLY.title": "Fly"
 
   
   
