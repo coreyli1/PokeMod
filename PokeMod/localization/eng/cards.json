@@ -154,7 +154,10 @@
   "POKEMOD-TWINEEDLE.title": "Twineedle",
 
   "POKEMOD-STRUGGLE_BUG.description": "Enemy loses {EnemyStrengthLoss:diff()} [gold]Strength[/gold].",
-  "POKEMOD-STRUGGLE_BUG.title": "Struggle Bug"
+  "POKEMOD-STRUGGLE_BUG.title": "Struggle Bug",
+
+  "POKEMOD-DEFEND_ORDER.description": "Gain {Dexterity:diff} [gold]Dexterity[/gold]",
+  "POKEMOD-DEFEND_ORDER.title": "Defend Order"
 
   
   
