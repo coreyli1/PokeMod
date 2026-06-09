@@ -148,7 +148,10 @@
   "POKEMOD-POISON_POWDER.title": "Poison Powder",
 
   "POKEMOD-FLY.description": "Draw {Cards:diff} cards.\nNext turn draw {Cards:diff} cards.",
-  "POKEMOD-FLY.title": "Fly"
+  "POKEMOD-FLY.title": "Fly",
+  
+  "POKEMOD-TWINEEDLE.description": "Choose an Attack or Power card. Add {IfUpgraded:show:{Cards} copies|a copy} of that card into your [gold]Hand[/gold].",
+  "POKEMOD-TWINEEDLE.title": "Twineedle"
 
   
   
