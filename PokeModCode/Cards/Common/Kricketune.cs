@@ -17,7 +17,7 @@ namespace PokeMod.PokeModCode.Cards;
 public sealed class Kricketune() : PokeModCard(1, CardType.Skill,
     CardRarity.Common, TargetType.Self)
 {
-    
+    protected override HashSet<CardTag> CanonicalTags => new HashSet<CardTag> { PokeModCode.Tags.Evolve };
     
     //add evolve keyword
     public override IEnumerable<CardKeyword> CanonicalKeywords => [
