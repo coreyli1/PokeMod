@@ -184,7 +184,16 @@
   "POKEMOD-JOLTIK.title": "Joltik",
   
   "POKEMOD-GALVANTULA.description": "Deal {Damage:diff} damage. Stun the enemy.",
-  "POKEMOD-GALVANTULA.title": "Galvantula"
+  "POKEMOD-GALVANTULA.title": "Galvantula",
+
+
+
+
+  "POKEMOD-DWEBBLE.description": "At the start of your turn, deal {RollingBoulderPower:diff()} damage to ALL enemies and increase this damage by {IncrementAmount:diff()}.",
+  "POKEMOD-DWEBBLE.title": "Dwebble",
+  
+  "POKEMOD-CRUSTLE.description": "At the start of your turn, deal {RollingBoulderPower:diff()} damage to ALL enemies and increase this damage by {IncrementAmount:diff()}.",
+  "POKEMOD-CRUSTLE.title": "Crustle"
   
   
 
