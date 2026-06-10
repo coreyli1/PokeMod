@@ -178,7 +178,15 @@
   "POKEMOD-LARVESTA.title": "Larvesta",
 
   "POKEMOD-VOLCARONA.description": "Deal {Damage:diff} damage to ALL enemies twice. Lose {DexterityLoss:diff} [gold]Dexterity[/gold].",
-  "POKEMOD-VOLCARONA.title": "Volcarona"
+  "POKEMOD-VOLCARONA.title": "Volcarona",
+
+  "POKEMOD-JOLTIK.description": "Deal {Damage:diff} damage. Stun the enemy.",
+  "POKEMOD-JOLTIK.title": "Joltik",
+  
+  "POKEMOD-GALVANTULA.description": "Deal {Damage:diff} damage. Stun the enemy.",
+  "POKEMOD-GALVANTULA.title": "Galvantula"
+  
+  
 
   
   
