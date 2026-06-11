@@ -186,6 +186,12 @@
   "POKEMOD-GALVANTULA.description": "Deal {Damage:diff} damage. Stun the enemy.",
   "POKEMOD-GALVANTULA.title": "Galvantula",
 
+  "POKEMOD-BURMY_STEEL.description": "Deal {CalculatedDamage:diff} damage 2 times to ALL enemies.",
+  "POKEMOD-BURMY_STEEL.title": "BurmySteel",
+
+  "POKEMOD-WORMADAN_STEEL.description": "Deal {CalculatedDamage:diff} damage 3 times to ALL enemies.",
+  "POKEMOD-WORMADAN_STEEL.title": "WormadanSteel",
+
 
 
 
