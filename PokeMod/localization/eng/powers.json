@@ -14,7 +14,11 @@
 
   "POKEMOD-SCYTHER_POWER.description": "Your first attack is played twice each turn.",
   "POKEMOD-SCYTHER_POWER.smartDescription": "Your first attack is played twice each turn.",
-  "POKEMOD-SCYTHER_POWER.title": "Scyther"
+  "POKEMOD-SCYTHER_POWER.title": "Scyther",
+
+  "POKEMOD-TAIL_GLOW_POWER.description": "",
+  "POKEMOD-TAIL_GLOW_POWER.smartDescription": "",
+  "POKEMOD-TAIL_GLOW_POWER.title": "TailGlowPower"
   
   
   

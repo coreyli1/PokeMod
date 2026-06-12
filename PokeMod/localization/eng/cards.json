@@ -141,6 +141,10 @@
   "POKEMOD-ACCUPRESSURE.description": "Deal {Damage:diff()} damage.\\n[gold]Vulnerable[/gold] and [gold]Weak[/gold] are twice as effective against the enemy for the next {DebilitatePower:diff()} {DebilitatePower:plural:turn|turns}.",
   "POKEMOD-ACCUPRESSURE.title": "Accupressure",
 
+  "POKEMOD-TAIL_GLOW.description": "",
+  "POKEMOD-TAIL_GLOW.title": "Tail Glow",
+  
+
   "POKEMOD-STUN_SPORE.description": "Stun the enemy.",
   "POKEMOD-STUN_SPORE.title": "Stun Spore",
 
