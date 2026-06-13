@@ -22,7 +22,6 @@ public sealed class TailGlow() : PokeModCard(2, CardType.Attack, CardRarity.Unco
     //add evolve keyword
     public override IEnumerable<CardKeyword> CanonicalKeywords => [
         PokeModCode.Keywords.Evolve,
-        CardKeyword.Exhaust
     ];    
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [
