@@ -160,6 +160,9 @@
   "POKEMOD-STRUGGLE_BUG.description": "Enemy loses {EnemyStrengthLoss:diff()} [gold]Strength[/gold].",
   "POKEMOD-STRUGGLE_BUG.title": "Struggle Bug",
 
+  "POKEMOD-COMPOUND_EYES.description": "Gain {Energy:diff} energy. All enemies lose all debuffs.",
+  "POKEMOD-COMPOUND_EYES.title": "Compound Eyes",
+
   
   
   
