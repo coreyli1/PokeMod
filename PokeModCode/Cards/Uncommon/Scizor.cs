@@ -28,7 +28,7 @@ public sealed class Scizor() : PokeModCard(2, CardType.Power, CardRarity.Uncommo
     ];    
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new DynamicVar("Attacks", 1m)
+        new DynamicVar("Attacks", 2m)
     ];
     
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
