@@ -26,15 +26,17 @@ public sealed class ScytherPower : CustomPowerModel
         {
             return playCount;
         }
-        int num = CombatManager.Instance.History.CardPlaysStarted.Count((CardPlayStartedEntry e) => e.Actor == base.Owner && e.CardPlay.IsFirstInSeries && e.HappenedThisTurn(base.CombatState));
+        int num = CombatManager.Instance.History.CardPlaysStarted.Count((CardPlayStartedEntry e) => e.Actor == base.Owner && e.CardPlay.IsFirstInSeries && e.HappenedThisTurn(base.CombatState) && e.CardPlay.Card.Type == CardType.Attack);
         if (num >= base.Amount)
         {
             return playCount;
         }
+        
         if (card.Type != CardType.Attack)
         {
             return playCount;
         }
+
         return playCount + 1;
     }
 
