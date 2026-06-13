@@ -206,19 +206,10 @@
   "POKEMOD-DWEBBLE.title": "Dwebble",
   
   "POKEMOD-CRUSTLE.description": "At the start of your turn, deal {RollingBoulderPower:diff()} damage to ALL enemies and increase this damage by {IncrementAmount:diff()}.",
-  "POKEMOD-CRUSTLE.title": "Crustle"
+  "POKEMOD-CRUSTLE.title": "Crustle",
   
   
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-
+  "POKEMOD-SWARM.description": "Deal {Damage:diff()} damage to ALL enemies.\nApply a random debuff to ALL enemies: {StrengthPower:diff()} [gold]Strength[/gold] loss, {PoisonPower:diff()} [gold]Poison[/gold], or {WeakPower:diff()} [gold]Weak[/gold]. Changes each combat.",
+  "POKEMOD-SWARM.title": "Swarm"
 }
 
